@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    /* overflow: hidden; */
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    
+    /* justify-content: space-between; */
+
+}
+.head{
+    margin:10px;
+    padding: 20px 10%;
+    height: 25vh;
+    /* border: 2px solid ; */
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style: none;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #af5c18;
+}
+nav ul li a:hover{
+    font-size: large;
+}
+#brand{
+    color: #e2b12b;
+}
+#brand:hover{
+    font-size: x-large;
+}
+
+
+
+
+.hero-section{
+    margin:10px;
+    padding-left:30px;
+    /* border:1px solid; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.hero-section-left{
+    width: 40%;
+    /* border:1px dashed; */
+
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    
+}
+.hero-section-left h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+.hero-section-left p{
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 103x;
+}
+.hero-section-left .btn{
+    margin-top: 12px;
+    align-content: center;
+    padding:4px;
+    background-color: #e2b12b;
+    border: 1px  white;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color:#af5c18;
+    border:1px solid #b28a1e;
+    height: 40px;
+    font-weight: 900;
+    
+    width:fit-content;
+}
+
+.hero-section-right{
+    margin: 10px;
+    /* width: 60%; */
+    /* border:1px dashed; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section-right img{
+    border-radius: 50%;
+}
+
+.hero-section-right div{
+    margin-bottom: 20px;
+}
+.hero-section-right .top-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.hero-section-right .btm-img{
+    align-self: flex-start;
+}
+
+
+
+
